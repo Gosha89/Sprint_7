@@ -45,4 +45,4 @@ public class CourierLogin {
                 .statusCode(HttpURLConnection.HTTP_CONFLICT)
                 .body("message", is("Этот логин уже используется. Попробуйте другой."));
     }
-}
+ }

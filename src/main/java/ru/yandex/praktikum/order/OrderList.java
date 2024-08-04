@@ -20,4 +20,4 @@ public class OrderList extends Client {
         response
                 .assertThat().body("orders", notNullValue());
     }
-}
+ }

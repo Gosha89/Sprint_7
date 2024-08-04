@@ -1,7 +1,6 @@
 package ru.yandex.praktikum.courier;
 
 import io.qameta.allure.junit4.DisplayName;
-import lombok.extern.slf4j.Slf4j;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Test;
@@ -96,4 +95,4 @@ public class CourierTest {
         ValidatableResponse loginResponse = client.login(Credentials.from(courier));
         chekLogin.loggedInSuccessfully(loginResponse);
     }
-}
+ }

@@ -7,4 +7,4 @@ public class CourierGenerator {
     public static Courier random() {
         return new Courier("Test" + RandomStringUtils.randomAlphanumeric(5, 10), "password1", "Ivanova");
     }
-}
+ }

@@ -17,4 +17,4 @@ public class Client {
                 .baseUri(BASE_URI)
                 .basePath(BASE_PATH);
     }
-}
+ }

@@ -3,7 +3,6 @@ package ru.yandex.praktikum.courier;
 import ru.yandex.praktikum.Client;
 import ru.yandex.praktikum.order.OrderClient;
 import ru.yandex.praktikum.order.OrderCreate;
-import lombok.extern.slf4j.Slf4j;
 import ru.yandex.praktikum.order.OrderData;
 import ru.yandex.praktikum.order.OrderList;
 import io.qameta.allure.junit4.DisplayName;
@@ -106,4 +105,4 @@ public class OrderCreateTest extends Client {
         ValidatableResponse response = client.getOrdersList();
         checkList.checkOrdersInResponse(response);
     }
-}
+ }

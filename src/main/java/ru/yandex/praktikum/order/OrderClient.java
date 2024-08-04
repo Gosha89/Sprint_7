@@ -28,4 +28,4 @@ public class OrderClient extends Client {
                 .get(ORDERS_PATH)
                 .then().log().all();
     }
-}
+ }

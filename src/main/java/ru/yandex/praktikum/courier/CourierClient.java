@@ -56,4 +56,4 @@ public class CourierClient extends Client {
 
         return create(emptyCredentials);
     }
-}
+ }
